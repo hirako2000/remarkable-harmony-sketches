@@ -116,7 +116,7 @@ then...
 ### Build
 
 ```
-$python3 setup.py
+$ python3 setup.py
 ```
 
 It generates the files in the `./dist` folder.
@@ -129,11 +129,11 @@ It generates the files in the `./dist` folder.
 
 FIXME
 
-| asset      | size   | gziped |
-| ---------- | ------ | ------ |
-| index.html | 3.8 kB | 2.1 kB |
-| styles.css | 9.1K   | 4.5 kB |
-| script.js  | 8.3 kB | 3.5 kB |
+| asset      | size    | gziped |
+| ---------- | ------- | ------ |
+| index.html | 1.7 kB  | 1.1 kB |
+| styles.css | 0.79 kB | 0.5 kB |
+| script.js  | 10.4 kB | 3.5 kB |
 	
 ## Roadmap
 
