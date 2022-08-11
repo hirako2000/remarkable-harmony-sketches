@@ -54,11 +54,15 @@ section {
 }
 
 .album-photo {
-    margin: 0px;
+    margin: 0px 2px 0px 2px;
 }
 
 .photo {
     height: 220px;
     min-height: 220px;
     max-height: 220px;
+}
+
+[v-cloak] { 
+    display: none; 
 }
