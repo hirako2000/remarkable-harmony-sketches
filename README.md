@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="gh-images/logo.png" alt="Logo" width="80" height="80">
+  <img src="images/logo.png" alt="Logo" width="80" height="80">
 
   <h3 align="center">Sketch Collection</h3>
 
@@ -178,7 +178,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/hirako2000/remarkable-harmony-sketches/issues
 [license-shield]: https://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
 [license-url]: https://github.com/hirako2000/remarkable-harmony-sketches/blob/main/LICENSE.txt
-[product-screenshot]: ./screenshot.png
+[product-screenshot]: images/screenshot.png
 
 
 
