@@ -66,3 +66,29 @@ section {
 [v-cloak] { 
     display: none; 
 }
+
+.copy {
+    height: 20px;
+    margin: 5px;
+  }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mt-4px {
+    margin-top: 4px;
+}
