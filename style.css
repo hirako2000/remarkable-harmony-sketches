@@ -14,10 +14,10 @@ body {
 }
 
 .title {
-    margin: 80px 0 10px;
+    margin: 30px 0 10px;
     font-weight: 900;
     font-size: 35px;
-    color: #000;
+    color: #333;
 }
 
 .description {
@@ -35,7 +35,7 @@ section {
 
 .album-name {
     margin-bottom: 20px;
-    color: #666;
+    color: #333;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
