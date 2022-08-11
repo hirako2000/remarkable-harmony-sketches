@@ -18,7 +18,7 @@
   <p align="center">
     A collection of sketches made with on the reMarkable tablet, using harmony
     <br />
-    <a href="https://github.com/hirako2000/remarkable-harmony-sketches/#about-the-project"><strong>Explore »</strong></a>
+    <a href="https://github.com/hirako2000/remarkable-harmony-sketches/#about-those-sketches"><strong>Explore »</strong></a>
     <br />
     <br />
     <a href="https://remarkable-harmony-sketches.surge.sh">View Sketches</a>
@@ -35,7 +35,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About</a>
+      <a href="#about-those-sketches">About</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
