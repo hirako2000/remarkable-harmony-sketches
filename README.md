@@ -65,6 +65,7 @@
 Harmony is a side loaded application for the reMarkable that supports some interesting procedural brushes, and even has a layers feature to compose pieces
 
 Could use a pen, could use an advanced drawing app on an iPad, but no. Here's why:
+
 * Can eassily erase, a pen is a bit more tricky
 * Procedural patterns, that's a time saver
 * 4096 pressure sensitivity, I doubt the iPad can do that
@@ -177,7 +178,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/hirako2000/remarkable-harmony-sketches/issues
 [license-shield]: https://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
 [license-url]: https://github.com/hirako2000/remarkable-harmony-sketches/blob/main/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: ./screenshot.png
 
 
 
