@@ -1,0 +1,22 @@
+title: "Example gallery"
+sub_title: "The subtitle"
+cover: reMarkable-2022-02-03-18-desert.png
+date: 2022-1-15
+settings:
+  gm:
+    quality: 80
+  light_mode: true
+
+sections:
+  - type: full-picture
+    image: reMarkable-2022-02-03-18-desert.png
+    text:
+      title: Beautiful Title
+      sub_title: pouet pouet
+      date: 2015-12-08
+  - type: full-picture
+    image: reMarkable-2022--3-09-25-eye-open.png
+    text:
+      title: Beautiful Title
+      sub_title: pouet pouet
+      date: 2015-12-08
