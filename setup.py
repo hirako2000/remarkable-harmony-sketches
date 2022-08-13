@@ -18,7 +18,7 @@ PHOTO_PATH = PATH + RELATIVE_PATH
 
 def get_directories():
     items = os.listdir(PHOTO_PATH)
-    return list(filter(lambda x: os.path.isdir(PHOTO_PATH + '/' + x), items))
+    return list(filter(lambda x: os.path.isdir(PHOTO_PATH + os.path.sep + x), items))
 
 def is_image(path):
     return re.search(r'\.(jpe?g|png)$', path)
