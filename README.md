@@ -5,8 +5,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -117,7 +116,7 @@ then...
 ### Build
 
 ```
-$ python3 setup.py
+$ npm run build # this require python3
 ```
 
 It generates the files in the `./dist` folder.
@@ -179,6 +178,14 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-shield]: https://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
 [license-url]: https://github.com/hirako2000/remarkable-harmony-sketches/blob/main/LICENSE.txt
 [product-screenshot]: images/screenshot.png
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 
 - Open your terminal linux/OSX and run

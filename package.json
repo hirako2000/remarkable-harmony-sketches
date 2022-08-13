@@ -1,0 +1,36 @@
+{
+  "name": "remarkable-harmony-sketches",
+  "version": "0.1.0",
+  "description": "reMarkable made sketches using harmony - static site generator of images albums",
+  "main": "index.js",
+  "scripts": {
+    "build": "python setup.py ",
+    "deploy": "surge . remarkable-harmony-sketches.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirako2000/remarkable-harmony-sketches.git"
+  },
+  "keywords": [
+    "rmkit",
+    "harmony",
+    "reMarkable",
+    "static-site",
+    "sketches",
+    "art",
+    "generator",
+    "minimalist",
+    "python",
+    "script",
+    "hirako"
+  ],
+  "author": "hirako2000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirako2000/remarkable-harmony-sketches/issues"
+  },
+  "homepage": "https://github.com/hirako2000/remarkable-harmony-sketches#readme",
+  "devDependencies": {
+    "surge": "^0.23.1"
+  }
+}
