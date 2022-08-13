@@ -97,20 +97,21 @@ You need python3 if you want to build the content.
 - Put photos in the `/photos` folder. Flat list of images, or add subfolders are supported
 - Each of sub folder becomes the album name
 
-**Example**: You can use `tree photos /F` to see all of your file in `photos` folder
+**Example**: You can use the [tree](https://formulae.brew.sh/formula/tree) command: `tree photos /F` to see all of your file in `photos` folder
 ```
 ├───photos
-│   ├───sketches
-│   │   ├───sketch-1.jpg
-│   │   ├───some-other.png
+|   |── collection
+│   ├── reMarkable-2022--3-09-25-eye-open.png
+│   ├── reMarkable-2022-01-31-17-landscape.png
+│   ├── reMarkable-2022-01-31-18-landscape.png
 │   │   └─── ...
 │   ├───albums2
-│   │   ├───IMG2_01.jpg
-│   │   ├───IMG2_02.jpg
+│   │   ├───00001.jpg
+│   │   ├───other-image.jpg
 │   │   └─── ...
 │   ├───albums3
-│   │   ├───IMG3_01.png
-│   │   ├───IMG3_02.jpg
+│   │   ├───yet-another-album-image.png
+│   │   ├───otherimage.jpg
 │   │   └─── ...
 │   └─── ...
 ```
