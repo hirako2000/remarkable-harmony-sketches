@@ -181,13 +181,12 @@ Use this space to list resources you find helpful and would like to give credit 
 [product-screenshot]: images/screenshot.png
 
 
-
-- In Windows, open your terminal and run
+- Open your terminal linux/OSX and run
 ```
 python setup.py
 ```
 - Personalize the contents of website at `info.json`.
-- Commit all change and host your repo with github page
+- Commit all change and host your repo as a static site, for e.g on surge.sh, netlify, whatever.
 - ... and that's all your gallery
 
 ## How It Works

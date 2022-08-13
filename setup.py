@@ -12,7 +12,7 @@ import json
 import re
 import time
 
-PATH = os.path.dirname(__file__) + '//'
+PATH = os.path.dirname(__file__) + ''
 RELATIVE_PATH = 'photos'
 PHOTO_PATH = PATH + RELATIVE_PATH
 
@@ -52,7 +52,7 @@ def write_config(config):
 
 
 def run():
-    print('Start reading data of each photo in ' + RELATIVE_PATH + ' directory\n')
+    print('Reading photos data of in ' + RELATIVE_PATH + ' directory\n')
     time.sleep(2)
     config = {}
     dirs = get_directories()
@@ -69,13 +69,13 @@ def run():
     print('\n---------------------------------------------------------\n')
 
     write_config(config)
-    print('Finished configuring total {albums} albums and {photos} photos!\n'.format(
+    print('Finished configuring: total {albums} albums and {photos} photos.\n'.format(
         albums=len(config),
         photos=count
         ))
 
-    print('Config file has been saved on {path}\n'.format(path=PATH + 'config.json'))
-    print('Thank you for using, please leave a Star if you like it!\n')
+    print('Config file now saved at {path}\n'.format(path=PATH + 'config.json'))
+    print('All good, the site can be served from root!\n')
     return 0
 
 
