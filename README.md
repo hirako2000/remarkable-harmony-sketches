@@ -6,6 +6,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![repo-size][repo-size-shield]][repo-size-url]
 [![license][license-shield]][license-url]
 <!-- for some reason those can't work yet [![w3c-validation][w3c-validation-shield]][w3c-validation-url]
 [![OSSF-Scorecard Score][score-shield]][score-url] -->
@@ -214,6 +215,9 @@ If you too produce work and publish it out there, it's clearer to choose a [lice
 
 [score-shield]: https://img.shields.io/ossf-scorecard/github.com/hirako2000/remarkable-harmony-sketches?style=for-the-badge
 [score-url]: https://github.com/hirako2000/remarkable-harmony-sketches.surge.sh
+
+[repo-size-shield]: https://img.shields.io/github/repo-size/hirako2000/remarkable-harmony-sketches?style=for-the-badge
+[repo-size-url]: https://github.com/santisoler/cc-licenses/archive/refs/heads/main.zip
 
 [product-screenshot]: images/screenshot.png
 
