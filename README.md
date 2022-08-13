@@ -99,21 +99,21 @@ You need python3 if you want to build the content.
 
 **Example**: You can use the [tree](https://formulae.brew.sh/formula/tree) command: `tree photos /F` to see all of your file in `photos` folder
 ```
-├───photos
-|   |── collection
-│   ├── reMarkable-2022--3-09-25-eye-open.png
-│   ├── reMarkable-2022-01-31-17-landscape.png
-│   ├── reMarkable-2022-01-31-18-landscape.png
-│   │   └─── ...
-│   ├───albums2
-│   │   ├───00001.jpg
-│   │   ├───other-image.jpg
-│   │   └─── ...
-│   ├───albums3
-│   │   ├───yet-another-album-image.png
-│   │   ├───otherimage.jpg
-│   │   └─── ...
-│   └─── ...
+photos
+├── collection
+│   ├── reMarkable-2022--3-09-25-eye-open.png
+│   ├── reMarkable-2022-01-31-17-landscape.png
+│   ├── reMarkable-2022-01-31-18-landscape.png
+│   ├── reMarkable-2022-02-01-08-hammock-trees-face.png
+│   ├── ...
+│   └── ...
+├── other-album2
+│   ├── photo01.png
+│   ├── photo02.png
+│   └── photo03.png
+└── other-album3
+    ├── some-other-image.jpg
+    └── yet-another-album-image.jpg
 ```
 
 then...
