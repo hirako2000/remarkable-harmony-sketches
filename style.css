@@ -16,7 +16,6 @@ body {
 }
 
 img:not(.copy) {
-    min-height: 220px;
     height: 220px;
     max-height: 220px;
 }
@@ -71,7 +70,8 @@ section {
 .album-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    margin-left: -4px;
 }
 
 .album-photo {
@@ -112,17 +112,15 @@ section {
 @media only screen and (max-width: 600px) {
     footer {
         writing-mode: vertical-rl;
-        top: 5px;
         position: fixed;
         right: 5px;
-        bottom: 8px;
+        bottom: 0px;
         word-break: keep-all;
     }
 
     .copy {
         transform: rotate(90deg);
-        right: -30px;
-        height: 20px;
+        height: 16px;
         margin: 5px -30px;
         margin-top: -50px;
         transition: linear 0.3s;
@@ -136,8 +134,8 @@ section {
 }
 
 a {
+    padding: 10px 2px;
     font-weight: 200;
-    color: #adadad;
     color: #777777;
     text-decoration: overline;
     transition: linear 0.8s;
@@ -149,6 +147,7 @@ a:hover {
 }
 
 footer {
+    font-size: 1.2em;
     font-weight: 200;
     display: flex;
     justify-content: flex-end;
