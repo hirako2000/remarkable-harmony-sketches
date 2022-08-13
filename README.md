@@ -2,6 +2,7 @@
 
 <!-- PROJECT SHIELDS -->
 [![w3c-validation][w3c-validation-shield]][w3c-validation-url]
+![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/hirako2000/gisteam?style=for-the-badge)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -85,14 +86,14 @@ More to come.
 
 ### Prerequisites
 
-Git clone/checkout this repo
+Git clone/checkout this repo.
 
 You need python3 if you want to build the content. 
 
 ### Images folder/s
 
-- Put photos in the `/photos` folder. Flat list of images, or add subfolders too!
-- For each of the folder, its name will become the album name
+- Put photos in the `/photos` folder. Flat list of images, or add subfolders are supported
+- Each of sub folder becomes the album name
 
 **Example**: You can use `tree photos /F` to see all of your file in `photos` folder
 ```
@@ -117,14 +118,21 @@ then...
 ### Build
 
 ```
-$ npm run build # this require python3
+$ npm run build
 ```
 
-It generates the files in the `./dist` folder.
+It generates the files for the entire page.
   
+#### Host / Deploy
+
+Deploy the html along with the photos and dist folder as a static site. 
+There are free hosting services out there, e.g on surge.sh, Netlify.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Customize 
+
+- Personalize the contents of the website by editing `info.json`.
 
 ## Asset size stats
 
@@ -139,7 +147,8 @@ FIXME
 ## Roadmap
 
 - [x] Layout POC
-- [ ] Better layout
+- [x] Better layout
+- [ ] Superb layout
 - [ ] Provide details view of entries
 
 
@@ -191,15 +200,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [w3c-validation-url]: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fremarkable-harmony-sketches.surge.sh&profile=css3svg&usermedium=all
 
 [product-screenshot]: images/screenshot.png
-
-
-- Open your terminal linux/OSX and run
-```
-python setup.py
-```
-- Personalize the contents of website at `info.json`.
-- Commit all change and host your repo as a static site, for e.g on surge.sh, netlify, whatever.
-- ... and that's all your gallery
 
 ## How It Works
 
