@@ -1,13 +1,14 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![w3c-validation][w3c-validation-shield]][w3c-validation-url]
-![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/hirako2000/gisteam?style=for-the-badge)
+[![Uptime][uptime-shield]][uptime-url]
+<!-- for some reason those can't work yet [![w3c-validation][w3c-validation-shield]][w3c-validation-url]
+[![OSSF-Scorecard Score][score-shield]][score-url] -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![license][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -173,9 +174,8 @@ This work is licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+[license-url]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-shield]: hhttps://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches?style=for-the-badge
 
 If you too produce work and publish it out there, it's clearer to choose a [license](https://choosealicense.com).
 
@@ -183,6 +183,20 @@ If you too produce work and publish it out there, it's clearer to choose a [lice
 
 ## Acknowledgments
 
+- [vuejs](https://vuejs.org/)
+- [olympact.io](https://www.olympact.io/el/blog/5-principles-for-minimalism-in-ux-ui)
+- [mom](https://unsplash.com/photos/7ne1ifXhI_Y)
+
+## How It Works
+
+- VueJS framework to render the gallery
+- `setup.py` will go through all of folders in `/photos/` directory and create a `config.json` file.
+- It collects all of information of each photo in the photo subfolder/s. It aggregates all data into one file called `config.json`.
+- Once you've created your `config.json`, the website can use it to figure out the photos to show.
+
+[observatory-shield]: https://img.shields.io/mozilla-observatory/grade-score/remarkable-harmony-sketches.surge.sh?publish&style=for-the-badge
+[uptime-shield]: https://img.shields.io/uptimerobot/ratio/m792462927-d88b9d2ebd47a1c7ccdf9763?style=for-the-badge
+[uptime-url]: https://remarkable-harmony-sketches.surge.sh
 [contributors-shield]: https://img.shields.io/github/contributors/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
 [contributors-url]: https://github.com/hirako2000/remarkable-harmony-sketches/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
@@ -193,14 +207,11 @@ If you too produce work and publish it out there, it's clearer to choose a [lice
 [issues-url]: https://github.com/hirako2000/remarkable-harmony-sketches/issues
 [license-shield]: https://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
 [license-url]: https://github.com/hirako2000/remarkable-harmony-sketches/blob/main/LICENSE.txt
-[w3c-validation-shield]: https://img.shields.io/w3c-validation/css?style=for-the-badge&targetUrl=https%3A%2F%2Fremarkable-harmony-sketches.surge.sh
+[w3c-validation-shield]: https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Fremarkable-harmony-sketches.surge.sh
 [w3c-validation-url]: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fremarkable-harmony-sketches.surge.sh&profile=css3svg&usermedium=all
+
+[score-shield]: https://img.shields.io/ossf-scorecard/github.com/hirako2000/remarkable-harmony-sketches?style=for-the-badge
+[score-url]: https://github.com/hirako2000/remarkable-harmony-sketches.surge.sh
 
 [product-screenshot]: images/screenshot.png
 
-## How It Works
-
-- VueJS framework to render the gallery
-- `setup.py` will go through all of folders in `/photos/` directory and create a `config.json` file.
-- It collects all of information of each photo in the photo subfolder/s. It aggregates all data into one file called `config.json`.
-- Once you've created your `config.json`, the website can use it to figure out the photos to show.
