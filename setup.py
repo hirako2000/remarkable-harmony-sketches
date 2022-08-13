@@ -39,8 +39,6 @@ def get_images(path):
         with open(PHOTO_PATH + '/' + path + '/' + img, 'rb') as f:
             _, width, height = getImageInfo(f.read())
         result.append({
-            'width': width,
-            'height': height,
             'src': src,
             'alt': 'sketch-' + img
         })

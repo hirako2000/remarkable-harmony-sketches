@@ -121,11 +121,10 @@ section {
 
     .copy {
         transform: rotate(90deg);
-        position: absolute;
-        right: -90px;
-        padding-right: 120px;
+        right: -30px;
         height: 20px;
-        margin: 5px 12px;
+        margin: 5px -30px;
+        margin-top: -50px;
         transition: linear 0.3s;
     }
 }
