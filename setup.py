@@ -42,6 +42,7 @@ def get_images(path):
             'width': width,
             'height': height,
             'src': src,
+            'alt': 'sketch-' + img
         })
     return result
 

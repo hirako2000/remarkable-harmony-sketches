@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="./dist/img-previewer.css">
 </head>
 
-<body>
-    <div id="app" v-cloak>
+<body v-cloak>
+    <div id="app">
         <h2 class="title">{{infos.title}}</h2>
         <p class="description">{{infos.description}}</p>
         <div id="gallery">
@@ -22,7 +22,7 @@
                 <div class="album-content">
                     <div class="album-photo" v-for="item in items">
                         <!-- <a v-bind:href="item.src" target="_blank"> -->
-                            <img class="photo" v-bind:src="item.src">
+                            <img class="photo" v-bind:src="item.src" alt="item.src">
                         <!-- </a> -->
                     </div>
                 </div>
@@ -32,36 +32,35 @@
     <footer class="container-fluid text-right">
         <span>
            <a href="https://creativecommons.org/licenses/">
-              <img class="copy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cc-by-nc-sa_icon.svg/1200px-Cc-by-nc-sa_icon.svg.png"/>
+              <img class="copy" alt="CC license" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cc-by-nc-sa_icon.svg/1200px-Cc-by-nc-sa_icon.svg.png"/>
            </a>
         </span>
         <span class="mt-4px"> by <a rel="noreferrer" href="https://github.com/hirako2000">Hirako</a>
        </span>
        <span class="mt-4px">&nbsp;:: using <a rel="noreferrer" href="https://rmkit.dev/apps/harmony">Harmony</a>
        </span>
-      </footer>
-</body>
-
-<script type="module">
-    import json from './config.json' assert { type: 'json' };
-    import info from './info.json' assert { type: 'json' };
-    const app = new Vue({
-        el: '#app',
-        data: {
-            albums: json,
-            infos: info
-        },
-        mounted() {
-            document.title = info.name;
-        },
-    });
-</script>
-<script>
-    window.onload = function(){
-        const imgPreviewer = new ImgPreviewer('#app', {
-            scrollbar: true
+    </footer>
+    <script type="module">
+        import json from './config.json' assert { type: 'json' };
+        import info from './info.json' assert { type: 'json' };
+        const app = new Vue({
+            el: '#app',
+            data: {
+                albums: json,
+                infos: info
+            },
+            mounted() {
+                document.title = info.name;
+            },
         });
-    }
-</script>
+    </script>
+    <script>
+        window.onload = function(){
+            const imgPreviewer = new ImgPreviewer('#app', {
+                scrollbar: true
+            });
+        }
+    </script>
+</body>
 
 </html>

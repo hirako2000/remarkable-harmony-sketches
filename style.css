@@ -78,7 +78,7 @@ section {
     max-height: 220px;
 }
 
-[v-cloak] { 
+#v-cloak { 
     display: none; 
 }
 
