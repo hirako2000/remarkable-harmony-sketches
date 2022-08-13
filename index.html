@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>reMarkable Harmony Sketches</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="/3rd-party/vue.js"></script>
     <script src="./dist/img-previewer.js"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./dist/img-previewer.css">
 </head>
 
-<body v-cloak>
-    <div id="app">
-        <h2 class="title">{{infos.title}}</h2>
-        <p class="description">{{infos.description}}</p>
+<body class="">
+    <div id="app" v-cloak>
+        <h2 class="title glitching" data-text="reMarkable Sketches">{{infos.title}}</h2>
+        <p class="description glitching" data-text="Made on the reMarkable tablet, using rmkit's harmony">{{infos.description}}</p>
         <div id="gallery">
             <section v-for="(items, title) in albums" v-bind:name="title">
                 <h3 class="album-name">{{title}}</h3>

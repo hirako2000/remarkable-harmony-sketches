@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    user-select: none;
     margin: 0 20px;
 }
 
@@ -36,9 +37,16 @@ img:not(.copy) {
 
 .title {
     margin: 30px 0 10px;
-    font-weight: 900;
+    font-weight: 200;
     font-size: 35px;
     color: #333;
+    transition: linear 0.3s;
+}
+
+.title:hover {
+    transform: perspective(1000px);
+    transform: skewY(-2deg) translateY(-10px);
+    transition: linear 0.5s;
 }
 
 .description {
@@ -48,8 +56,6 @@ img:not(.copy) {
     color: #333;
 }
 
-#gallery {}
-
 section {
     margin-bottom: 50px;
 }
@@ -58,7 +64,7 @@ section {
     margin-bottom: 20px;
     color: #333;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: 2px;
 }
 
@@ -78,18 +84,55 @@ section {
     max-height: 220px;
 }
 
-#v-cloak { 
-    display: none; 
+.photo:hover {
+    transform: skewY(1deg) scale(1.05);
+    border-radius: 3px;
+    transition: linear 0.2s;
+    filter: brightness(1.1);
+}
+
+[v-cloak] > * { 
+    display:none; 
+}
+
+[v-cloak]::before {
+    padding-top: 3em;
+    display: block;
+    height: 20px;
+    content: "Loading..."; 
 }
 
 .copy {
-    height: 20px;
+    filter: brightness(1.5);
+    height: 18px;
     margin: 5px 12px;
     transition: linear 0.3s;
 }
 
+@media only screen and (max-width: 600px) {
+    footer {
+        writing-mode: vertical-rl;
+        top: 5px;
+        position: fixed;
+        right: 5px;
+        bottom: 8px;
+        word-break: keep-all;
+    }
+
+    .copy {
+        transform: rotate(90deg);
+        position: absolute;
+        right: -90px;
+        padding-right: 120px;
+        height: 20px;
+        margin: 5px 12px;
+        transition: linear 0.3s;
+    }
+}
+
+
 .copy:hover {
-    filter: drop-shadow(0px 6px 5px #333);
+    filter: brightness(1);
     transition: linear 0.3s;
 }
 
@@ -115,3 +158,76 @@ footer {
 .mt-4px {
     margin-top: 4px;
 }
+
+
+.glitching {
+    position: relative;
+}
+
+.glitching.title {
+    text-shadow: 2px 1px black;
+}
+
+.glitching.centered {
+    width: 100%;
+}
+
+
+@keyframes noise-anim {
+    0% {
+        clip: rect(92px, 9999px, 87px, 0);
+    }
+    10% {
+        clip: rect(74px, 9999px, 16px, 0);
+    }
+    20% {
+        clip: rect(11px, 9999px, 78px, 0);
+    }
+    30% {
+        clip: rect(14px, 9999px, 98px, 0);
+    }
+    40% {
+        clip: rect(10px, 9999px, 25px, 0);
+    }
+    50% {
+        clip: rect(98px, 9999px, 100px, 0);
+    }
+    60% {
+        clip: rect(92px, 9999px, 4px, 0);
+    }
+    70% {
+        clip: rect(96px, 9999px, 28px, 0);
+    }
+    80% {
+        clip: rect(65px, 9999px, 9px, 0);
+    }
+    90% {
+        clip: rect(50px, 9999px, 44px, 0);
+    }
+    100% {
+        clip: rect(70px, 9999px, 95px, 0);
+    }
+}
+.glitching:after {
+    content: attr(data-text);
+    position: absolute;
+    left: -1px;
+    text-shadow: 1px 0 black;
+    top: 0;
+    background: transparent;
+    overflow: hidden;
+    animation: noise-anim 1.5s infinite linear alternate-reverse;
+    width: 100%;
+}
+
+.glitching:after {
+    content: attr(data-text);
+    position: absolute;
+    left: -1px;
+    text-shadow: 1px 0 black;
+    top: 0;
+    background: transparent;
+    overflow: hidden;
+    animation: noise-anim 1s infinite linear alternate-reverse;
+    width: 100%;
+  }

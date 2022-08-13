@@ -64,7 +64,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://remarkable-harmony-sketches.surge.sh)
 
-Harmony is a side loaded application for the reMarkable that supports some interesting procedural brushes, and even has a layers feature to compose pieces
+[Harmony](https://rmkit.dev/apps/harmony) is a side loaded application for the reMarkable that supports some interesting procedural brushes, and even has a layers feature to compose pieces. It is part of rmkit, an ecosystem of unofficial apps and dev tools compatible with the multiple devices.
 
 Could use a pen, could use an advanced drawing app on an iPad, but no. Here's why:
 
@@ -137,14 +137,14 @@ There are free hosting services out there, e.g on surge.sh, Netlify.
 
 ## Asset size stats
 
-FIXME
-
 | asset      | size    | gziped |
 | ---------- | ------- | ------ |
-| index.html | 1.7 kB  | 1.1 kB |
-| styles.css | 0.79 kB | 0.5 kB |
-| script.js  | 10.4 kB | 3.5 kB |
+| index.html | 2.38 kB  | 1.5 kB |
+| styless | 9.01 kB | 5.7 kB |
+| scripts  | 10.2 kB | 3.7 kB |
 	
+These don't include vue.js dependency size and web font load.
+
 ## Roadmap
 
 - [x] Layout POC
