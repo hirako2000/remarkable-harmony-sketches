@@ -168,11 +168,9 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+[![license][license-shield]][license-url]
 
-This work is licensed under the
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][license-url].
 
 [license-url]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-shield]: hhttps://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches?style=for-the-badge
