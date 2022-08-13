@@ -7,7 +7,6 @@ package-lock.json
 # Build directory
 /public
 .parcel-cache
-dist
 .DS_Store
 
 .vscode/
