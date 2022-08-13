@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+[![w3c][w3c-validation-shiekd]][cw3c-validation-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -186,6 +187,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/hirako2000/remarkable-harmony-sketches/issues
 [license-shield]: https://img.shields.io/github/license/hirako2000/remarkable-harmony-sketches.svg?style=for-the-badge
 [license-url]: https://github.com/hirako2000/remarkable-harmony-sketches/blob/main/LICENSE.txt
+[w3c-validation-url]: https://img.shields.io/w3c-validation/html?style=for-the-badgetargetUrl=https%3A%2F%2Fremarkable-harmony-sketches.surge.sh
 [product-screenshot]: images/screenshot.png
 
 
