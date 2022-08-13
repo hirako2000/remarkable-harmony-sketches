@@ -127,7 +127,7 @@ It generates the files for the entire page.
 #### Host / Deploy
 
 Deploy the html along with the photos and dist folder as a static site. 
-There are free hosting services out there, e.g on surge.sh, Netlify.
+There are free hosting services out there, e.g  [surge.sh](https://surge.sh), or [Netlify](https://www.netlify.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
