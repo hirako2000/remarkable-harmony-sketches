@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![w3c][w3c-validation-shiekd]][cw3c-validation-url]
+[![w3c][w3c-validation-shiekd]][w3c-validation-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
