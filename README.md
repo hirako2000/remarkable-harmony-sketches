@@ -147,11 +147,15 @@ These don't include vue.js dependency size and web font load.
 
 ## Roadmap
 
+- [x] script to generate html from directories of images
+- [x] display images as a moisaic
+- [x] enlarge on click with a visualizer  
 - [x] Layout POC
-- [x] Better layout
-- [ ] Superb layout
-- [ ] Provide details view of entries
-
+- [x] better layout
+- [ ] superb layout
+- [ ] make each image clickable befor the entire collection has loaded on the browser
+- [ ] fetch thumbnails to build the grid rather than full size images
+- [ ] provide details view of entries
 
 ## Contributing
 
