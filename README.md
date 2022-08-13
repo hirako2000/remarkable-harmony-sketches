@@ -2,13 +2,13 @@
 
 <!-- PROJECT SHIELDS -->
 [![Uptime][uptime-shield]][uptime-url]
-<!-- for some reason those can't work yet [![w3c-validation][w3c-validation-shield]][w3c-validation-url]
-[![OSSF-Scorecard Score][score-shield]][score-url] -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![license][license-shield]][license-url]
+<!-- for some reason those can't work yet [![w3c-validation][w3c-validation-shield]][w3c-validation-url]
+[![OSSF-Scorecard Score][score-shield]][score-url] -->
 
 <!-- PROJECT LOGO -->
 <br />
