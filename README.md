@@ -218,7 +218,7 @@ If you too produce work and publish it out there, it's clearer to choose a [lice
 [score-url]: https://github.com/hirako2000/remarkable-harmony-sketches.surge.sh
 
 [repo-size-shield]: https://img.shields.io/github/repo-size/hirako2000/remarkable-harmony-sketches?style=for-the-badge
-[repo-size-url]: https://github.com/santisoler/cc-licenses/archive/refs/heads/main.zip
+[repo-size-url]: https://github.com/hirako2000/remarkable-harmony-sketches/archive/refs/heads/main.zip
 
 [product-screenshot]: images/screenshot.png
 
