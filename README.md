@@ -66,7 +66,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://remarkable-harmony-sketches.surge.sh)
 
-[Harmony](https://rmkit.dev/apps/harmony) is a side loaded application for the reMarkable that supports some interesting procedural brushes, and even has a layers feature to compose pieces. It is part of rmkit, an ecosystem of unofficial apps and dev tools compatible with the multiple devices.
+[Harmony](https://rmkit.dev/apps/harmony) is a side loaded application for the reMarkable that supports some interesting procedural brushes, and even has a layers feature to compose pieces. It is part of rmkit, an ecosystem of unofficial apps and dev tools compatible with multiple eInk devices.
 
 Could use a pen, could use an advanced drawing app on an iPad, but no. Here's why:
 
