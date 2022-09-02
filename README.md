@@ -51,7 +51,8 @@
         <li><a href="#build">Build</a></li>
       </ul>
     </li>
-    <li><a href="#asset-size-stats">size stats</a></li>
+    <li><a href="#asset-size-stats">Assets stats</a></li>
+    <li><a href="#codebase">Codebase</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -146,6 +147,10 @@ There are free hosting services out there, e.g  [surge.sh](https://surge.sh), or
 | scripts  | 10.2 kB | 3.7 kB |
 	
 These don't include vue.js dependency size and web font load.
+
+## Codebase
+
+![Visualization of the codebase](./diagram.svg)
 
 ## Roadmap
 
